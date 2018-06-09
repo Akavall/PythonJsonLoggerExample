@@ -1,0 +1,3 @@
+{"asctime": "2018-06-09 07:45:43,093", "name": "root", "levelname": "INFO", "message": "info message", "filename": "my_file.py", "input": {"y": 6, "x": 5}}
+{"asctime": "2018-06-09 07:45:43,094", "name": "root", "levelname": "WARNING", "message": "warn message", "filename": "my_file.py", "input": {"y": 0, "x": 0}}
+{"asctime": "2018-06-09 07:45:43,094", "name": "root", "levelname": "ERROR", "message": "error message", "filename": "my_file.py"}
