@@ -3,10 +3,13 @@ import logging
 from pythonjsonlogger import jsonlogger
 from logging.config import fileConfig
 
-
 if __name__ == "__main__":
 
     fileConfig("log_config.ini")
+    # to make logging happen in GMT time
+    import time
+    logging.Formatter.converter = time.gmtime
+
 
     log_message_info = {"message": "info message",
                         "input": {"x": 5, "y": 6}}
